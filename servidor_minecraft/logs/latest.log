@@ -1,19 +1,19 @@
-[22:25:21] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.16.3
-[22:25:21] [ForkJoinPool-1-worker-3/WARN]: The mod "cardinal-components-base" contains invalid entries in its mod json:
-- Unsupported root entry "side" at line 8 column 11
-[22:25:21] [ForkJoinPool-1-worker-3/WARN]: The mod "cardinal-components-entity" contains invalid entries in its mod json:
-- Unsupported root entry "side" at line 8 column 11
-[22:25:21] [ForkJoinPool-1-worker-5/WARN]: The mod "libcd" contains invalid entries in its mod json:
+[23:01:22] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.16.3
+[23:01:22] [ForkJoinPool-1-worker-5/WARN]: The mod "libcd" contains invalid entries in its mod json:
 - Unsupported root entry "licence" at line 9 column 12
-[22:25:21] [ForkJoinPool-1-worker-5/WARN]: The mod "qcommon-croco" contains invalid entries in its mod json:
+[23:01:22] [ForkJoinPool-1-worker-3/WARN]: The mod "cardinal-components-entity" contains invalid entries in its mod json:
+- Unsupported root entry "side" at line 8 column 11
+[23:01:22] [ForkJoinPool-1-worker-3/WARN]: The mod "cardinal-components-base" contains invalid entries in its mod json:
+- Unsupported root entry "side" at line 8 column 11
+[23:01:22] [ForkJoinPool-1-worker-7/WARN]: The mod "qcommon-croco" contains invalid entries in its mod json:
 - Unsupported root entry "links" at line 10 column 10
-[22:25:21] [ForkJoinPool-1-worker-5/WARN]: The mod "cardinal-components-base" contains invalid entries in its mod json:
+[23:01:22] [ForkJoinPool-1-worker-5/WARN]: The mod "cardinal-components-entity" contains invalid entries in its mod json:
 - Unsupported root entry "side" at line 8 column 11
-[22:25:21] [ForkJoinPool-1-worker-5/WARN]: The mod "cardinal-components-entity" contains invalid entries in its mod json:
+[23:01:22] [ForkJoinPool-1-worker-5/WARN]: The mod "cardinal-components-base" contains invalid entries in its mod json:
 - Unsupported root entry "side" at line 8 column 11
-[22:25:21] [ForkJoinPool-1-worker-1/WARN]: The mod "libcd" contains invalid entries in its mod json:
+[23:01:22] [ForkJoinPool-1-worker-7/WARN]: The mod "libcd" contains invalid entries in its mod json:
 - Unsupported root entry "licence" at line 9 column 12
-[22:25:21] [main/INFO]: Loading 230 mods:
+[23:01:22] [main/INFO]: Loading 230 mods:
 	- adorn 1.13.0+1.16.5
 	   |-- jankson 3.0.1+j1.2.0
 	   \-- libgui 3.3.2+1.16.4
@@ -275,42 +275,41 @@
 	- yummyfoods 1.3
 	- yungsapi 1.16.5-Fabric-9
 	- zoob 3.0.0
-[22:25:21] [main/WARN]: Found 2 non-fabric mods:
+[23:01:22] [main/WARN]: Found 1 non-fabric mod:
 	- EW_v0.5_1.16.5.jar
-	- illuminations-uninstaller.jar
-[22:25:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSDG/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:25:22] [main/WARN]: Reference map 'endlessoceans.refmap.json' for endlessoceans.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:25:22] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 0 override(s) found
-[22:25:22] [main/WARN]: Reference map 'wrenchable-refmap.json' for wrenchable.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:25:22] [main/WARN]: Reference map 'yummy-foods-refmap.json' for YummyFoods.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:25:22] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[22:25:22] [main/WARN]: @Mixin target net.minecraft.class_465 was not found curios.mixins.json:HandledScreenMixin from mod curios
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_746 was not found gate-of-babylon.mixins.json:ClientPlayerEntityYoyoUsageMixin from mod gateofbabylon
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_906 was not found go-fish.mixins.json:FishingBobberEntityRendererMixin from mod go-fish
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_702 (java.lang.ClassNotFoundException: net/minecraft/class_702)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_702 was not found go-fish.mixins.json:ParticleManagerMixin from mod go-fish
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_970 was not found mcda.mixins.json:ArmorFeatureRendererMixin from mod mcda
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_471 (java.lang.ClassNotFoundException: net/minecraft/class_471)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_471 was not found noenchantcap.mixins.json:AnvilScreenMixin from mod noenchantcap
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_638 was not found sandwichable.mixins.json:ClientWorldMixin from mod sandwichable
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_473 (java.lang.ClassNotFoundException: net/minecraft/class_473)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_473 was not found stendhal.mixins.json:BookEditScreenMixin from mod stendhal
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_3872 (java.lang.ClassNotFoundException: net/minecraft/class_3872)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_3872 was not found stendhal.mixins.json:BookScreenMixin from mod stendhal
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_408 (java.lang.ClassNotFoundException: net/minecraft/class_408)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_408 was not found stendhal.mixins.json:ChatScreenMixin from mod stendhal
-[22:25:23] [main/WARN]: Error loading class: net/minecraft/class_498 (java.lang.ClassNotFoundException: net/minecraft/class_498)
-[22:25:23] [main/WARN]: @Mixin target net.minecraft.class_498 was not found stendhal.mixins.json:SignEditScreenMixin from mod stendhal
-[22:25:23] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval)
-[22:25:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22:25:23] [main/INFO]: Smooth Boot config initialized
-[22:25:25] [main/WARN]: Method overwrite conflict for setAmount in extraalchemy.access.json:AccessorExperienceOrbEntity from mod extraalchemy, previously written by carpet.mixins.ExperienceOrbEntityMixin. Skipping method.
-[22:25:26] [main/INFO]: Using Java 9+ class definer
-[22:25:26] [main/ERROR]: Minecraft has crashed!
+[23:01:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSDG/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:01:23] [main/WARN]: Reference map 'endlessoceans.refmap.json' for endlessoceans.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:01:23] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 0 override(s) found
+[23:01:23] [main/WARN]: Reference map 'wrenchable-refmap.json' for wrenchable.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:01:23] [main/WARN]: Reference map 'yummy-foods-refmap.json' for YummyFoods.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:01:23] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[23:01:23] [main/WARN]: @Mixin target net.minecraft.class_465 was not found curios.mixins.json:HandledScreenMixin from mod curios
+[23:01:23] [main/WARN]: Error loading class: net/minecraft/class_746 (java.lang.ClassNotFoundException: net/minecraft/class_746)
+[23:01:23] [main/WARN]: @Mixin target net.minecraft.class_746 was not found gate-of-babylon.mixins.json:ClientPlayerEntityYoyoUsageMixin from mod gateofbabylon
+[23:01:23] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[23:01:23] [main/WARN]: @Mixin target net.minecraft.class_906 was not found go-fish.mixins.json:FishingBobberEntityRendererMixin from mod go-fish
+[23:01:23] [main/WARN]: Error loading class: net/minecraft/class_702 (java.lang.ClassNotFoundException: net/minecraft/class_702)
+[23:01:23] [main/WARN]: @Mixin target net.minecraft.class_702 was not found go-fish.mixins.json:ParticleManagerMixin from mod go-fish
+[23:01:23] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
+[23:01:23] [main/WARN]: @Mixin target net.minecraft.class_970 was not found mcda.mixins.json:ArmorFeatureRendererMixin from mod mcda
+[23:01:24] [main/WARN]: Error loading class: net/minecraft/class_471 (java.lang.ClassNotFoundException: net/minecraft/class_471)
+[23:01:24] [main/WARN]: @Mixin target net.minecraft.class_471 was not found noenchantcap.mixins.json:AnvilScreenMixin from mod noenchantcap
+[23:01:24] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[23:01:24] [main/WARN]: @Mixin target net.minecraft.class_638 was not found sandwichable.mixins.json:ClientWorldMixin from mod sandwichable
+[23:01:24] [main/WARN]: Error loading class: net/minecraft/class_473 (java.lang.ClassNotFoundException: net/minecraft/class_473)
+[23:01:24] [main/WARN]: @Mixin target net.minecraft.class_473 was not found stendhal.mixins.json:BookEditScreenMixin from mod stendhal
+[23:01:24] [main/WARN]: Error loading class: net/minecraft/class_3872 (java.lang.ClassNotFoundException: net/minecraft/class_3872)
+[23:01:24] [main/WARN]: @Mixin target net.minecraft.class_3872 was not found stendhal.mixins.json:BookScreenMixin from mod stendhal
+[23:01:24] [main/WARN]: Error loading class: net/minecraft/class_408 (java.lang.ClassNotFoundException: net/minecraft/class_408)
+[23:01:24] [main/WARN]: @Mixin target net.minecraft.class_408 was not found stendhal.mixins.json:ChatScreenMixin from mod stendhal
+[23:01:24] [main/WARN]: Error loading class: net/minecraft/class_498 (java.lang.ClassNotFoundException: net/minecraft/class_498)
+[23:01:24] [main/WARN]: @Mixin target net.minecraft.class_498 was not found stendhal.mixins.json:SignEditScreenMixin from mod stendhal
+[23:01:24] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval)
+[23:01:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[23:01:24] [main/INFO]: Smooth Boot config initialized
+[23:01:26] [main/WARN]: Method overwrite conflict for setAmount in extraalchemy.access.json:AccessorExperienceOrbEntity from mod extraalchemy, previously written by carpet.mixins.ExperienceOrbEntityMixin. Skipping method.
+[23:01:26] [main/INFO]: Using Java 9+ class definer
+[23:01:27] [main/ERROR]: Minecraft has crashed!
 net.fabricmc.loader.impl.FormattedException: java.lang.NoSuchFieldError: CLENT_CONFIG
 	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:482) ~[fabric-loader-0.16.3.jar:?]
